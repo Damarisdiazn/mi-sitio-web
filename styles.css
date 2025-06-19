@@ -1,0 +1,61 @@
+/* Fondo general en rosa palo */
+body {
+  background-color: #f4c2c2;
+  color: #333;
+}
+
+/* Botón primario rosa */
+.btn-primary {
+  background-color: #e89cae;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c06c84;
+  transform: scale(1.05);
+}
+
+/* Cards con fondo blanco y bordes suaves */
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Navbar personalizado */
+.navbar {
+  background-color: #e89cae !important;
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  color: #555;
+  padding: 20px 0;
+}
+
+/* Media query: en móviles fondo más claro */
+@media (max-width: 768px) {
+  body {
+    background-color: #fbeff0;
+  }
+
+  h1 {
+    color: #8e3a59;
+  }
+}
+.imagen-alta {
+  height: 420px;        /* o el alto que tú desees */
+  object-fit: cover;    /* recorta la imagen sin deformarla */
+}
